@@ -3,45 +3,164 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>桃仔源學</title>
+    <title>桃仔園學行動版導覽系統</title>
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/index.css">
- 
+    <style>
+        a.nav-link {
+            color: white;
+        }
+        .card-header {
+            background-color:rgb(126, 95, 10);
+        }
+        a.collapsed {
+            color: white
+        }
+    </style>
 </head>
 <body>
-    <h1>桃園區的日人發展區</h1>
-    <p>
-        1895年進入日本統治台灣的時期後，直到1901(明治34)年今桃園區隸屬於臺北縣，1901 (明治34)年，臺灣總督府廢縣置廳，將臺灣劃分為20個廳，今桃園市大部分地區隸屬桃仔園廳，桃仔園廳又下轄大嵙崁、三角湧、大坵園、楊梅壢、鹹菜硼、中壢等6個支廳。1905年4月，桃仔園廳改稱桃園廳。1909年10月，台灣的行政區劃由12廳改制為20廳，而桃園廳的行政區劃照舊。
-    </p>
-    <p>
-        日本人治理今桃園區所依循著的發展路線是廟後商業、廟前行政、站後工業。
-    </p>
-    <p>
-        大約是1904年時桃園古城被拆，日本人開始發展「桃園驛前通」一帶的建設，也就是從景福宮到桃園車站一帶，此後今桃園區這一帶內的新式建築逐漸興起，
-    </p>
-    <h6>舉例如下</h6>
-    <p>
-        1904起開始設置了「桃園廳舍」建築，1922年桃園廳舍被重建為桃園郡役所，1945年成為新竹縣政府辦公樓，1950年成為桃園縣政府辦公樓，1983年搬遷至新規劃的縣府路行政園區，後來原址上的建物被改建成為遠東百貨大樓，1984年11月開業。
-    </p>
-    <p>
-        今中正路上麥當勞的位置，原有日治時期桃園街役場建築，1945年12月成為桃園鎮公所，1971年4月21日，成為桃園縣桃園市公公所。1983年搬遷至新規劃的縣府路行政園區。
-    </p>
-    <p>
-        今中正路上統領百貨的原址，1902年起是桃仔園小學校的位置，1945年廢校，1995年起今統領百貨桃園店開幕。
-    </p>
-    <p>
-        今中華路/民權路路口的合作金庫的原址，日治時期是桃園武德殿建築。
-    </p>
-    <p>
-        今復興路上桃園市新住民文化會館的原址，日治時期是東本願寺建築。
-    </p>
 
-    <img src="https://upload.wikimedia.org/wikipedia/commons/1/1a/%E6%A1%83%E5%9C%92%E8%A1%97%E5%BD%B9%E5%A0%B4.jpg" alt="" title="桃園街役場">
+    <!-- Grey with black text -->
+    <nav class="navbar navbar-expand-sm"  style="background-color: rgb(126, 95, 10)">
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">桃仔園的故事</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">人文</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">教育</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">古蹟導覽</a>
+            </li>
+        </ul>
+    </nav>
 
-    <img src="https://upload.wikimedia.org/wikipedia/commons/5/55/T%C5%8Den-gun_yakusho.jpg" alt="" title="桃園郡役所">
+    <img src="imgs/dev01.png" alt="">
+    <img src="imgs/dev02.png" alt="">
 
-    <img src="imgs/統領百貨(桃園小學校).jpg" alt="" title="統領百貨(1902年起桃園小學校)">
+    <article class="m-5">
+        <h1>桃仔園古城</h1>
+        <p>
+            台灣清治時期，又稱清領時期、清據時期，是指由大清帝國統治台灣的歷史時期，其年代是自1683年(清康熙22)年康熙皇帝派遣施琅攻滅南明東寧王國起，直到1895年4月大清帝國與大日本帝國簽訂《馬關條約》將台灣割讓予日本為止，共計212年，是臺灣歷史上被政權統治持續時間最長、且唯一超過百年的時期。
+        </p>
+        <p>
+            這期間大清官方總共築建過的14座城，此外唯一座由民間出資興建的石城(非竹城)就是桃仔園古城。
+        </p>
+    </article>
+
+    <h4 class="ml-3">時光屋</h4>
+    <div id="accordion">
+
+        <div class="card">
+          <div class="card-header">
+            <a class="card-link" data-toggle="collapse" href="#collapseOne">
+                1723(清雍正01)年
+            </a>
+          </div>
+          <div id="collapseOne" class="collapse show" data-parent="#accordion">
+            <div class="card-body">
+                台灣北部初設淡水廳
+            </div>
+          </div>
+        </div>
+      
+        <div class="card">
+          <div class="card-header">
+            <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">
+                1726(清雍正04)年
+            </a>
+          </div>
+          <div id="collapseTwo" class="collapse" data-parent="#accordion">
+            <div class="card-body">
+                福建漳州人藍勇、藍宗最先入墾今桃園區。直至清雍正年間今桃園區一帶仍未有大規模之開發，極可能只是附近原住民社的獵場，所以被早期移民稱為「虎茅莊」，即「粗劣野草叢生之地」，取其「茅草如虎傷人」之意。
+            </div>
+          </div>
+        </div>
+      
+        <div class="card">
+          <div class="card-header">
+            <a class="collapsed card-link" data-toggle="collapse" href="#collapseThree">
+                1737(清乾隆02)年
+            </a>
+          </div>
+          <div id="collapseThree" class="collapse" data-parent="#accordion">
+            <div class="card-body">
+                粵籍墾首薛啟隆率眾數百，由今天斗六北上從舊南崁港上岸
+                ，入墾南崁至霄裡，龜崙嶺至崁仔腳，包含今天桃園區。
+                
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+              <a class="collapsed card-link" data-toggle="collapse" href="#collapseFour">
+                1806(清嘉慶11)年
+              </a>
+            </div>
+            <div id="collapseFour" class="collapse" data-parent="#accordion">
+              <div class="card-body">
+                南崁、龜崙口一帶發生漳泉械鬥，泉州方取勝，波及到當時
+                以漳州人為主的桃仔園聚落，草店店屋多半被燒，仔園聚落漳州人為強化防禦
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-header">
+              <a class="collapsed card-link" data-toggle="collapse" href="#collapseFive">
+                1809(清嘉慶14)年
+              </a>
+            </div>
+            <div id="collapseFive" class="collapse" data-parent="#accordion">
+              <div class="card-body">
+                建土垣後來因為仍有械鬥事件
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header">
+              <a class="collapsed card-link" data-toggle="collapse" href="#collapseSix">
+                1834(清道光14)年
+              </a>
+            </div>
+            <div id="collapseFSix" class="collapse" data-parent="#accordion">
+              <div class="card-body">
+                富商姚蓋(友)倡改土堡為石城，高12尺，分二段，壁底厚5尺，壁頂厚3尺，周長~2.1公里
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-header">
+              <a class="collapsed card-link" data-toggle="collapse" href="#collapseSeven">
+                1839(清道光19)年
+              </a>
+            </div>
+            <div id="collapseFSeven" class="collapse" data-parent="#accordion">
+              <div class="card-body">
+                由徐玉衡修補城垣並開4門
+                東門：迎曦門，通往臺北；
+                西門：延爽門，通往新竹
+                南門：循陔(ㄍㄞ)門，通往大溪
+                北門：拱辰門，通往南崁
+
+              </div>
+            </div>
+          </div>
+      
+      </div>
+
+ 
+    
+   
+    
+
+    
 
     <!-- jQuery library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
